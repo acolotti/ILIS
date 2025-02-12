@@ -1,0 +1,11 @@
+Constants
+    M = 2.5;
+    A[2][2] = ((-0.5 , 0); (0, -1));
+
+function V(x[2])
+    return(0.5*(x'*x));
+end
+
+function hV(x[2])
+    return(x'*A*x + M*sqrt(x'*x));
+end

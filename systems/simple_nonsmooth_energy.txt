@@ -1,0 +1,7 @@
+function f(x[2])
+    return(-x(1), -x(2));
+end
+
+function V(x[2])
+    return(max(abs(x[0]),abs(x[1])));
+end
